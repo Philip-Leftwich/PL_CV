@@ -1,19 +1,19 @@
 ---
 graphics: yes
-name: JooYoung
-surname: Seo
+name: Philip T.
+surname: Leftwich
 headcolor: 414141
 #qualifications: 
-position: "Ph.D. Candidate (ABD); RStudio Trusted Data Science Instructor"
-address: "Learning, Design, and Technology, 301 Keller Building, University Park, PA 16802, USA"
-phone: "+1 814-777-5825"
-www: jooyoungseo.com
-email: "jooyoung@psu.edu"
-twitter: seo_jooyoung
-github: jooyoungseo
-linkedin: jooyoungseo
-aboutme: |
-  I am a learning scientist, data-science/software engineer, and internationally certified accessibility professional.
+# position: "Ph.D. Candidate (ABD); RStudio Trusted Data Science Instructor"
+# address: "Learning, Design, and Technology, 301 Keller Building, University Park, PA 16802, USA"
+phone: "+44 7871 041 012"
+www: philip-leftwich.github.io
+email: "p.leftwich@uea.ac.uk"
+twitter: philipleftwich
+github: Philip-Leftwich
+linkedin: philip-leftwich-117052155
+#aboutme: |
+  
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 csl: "csl/apa6-cv.csl"
 nocite: "@*"
@@ -26,10 +26,10 @@ knit: bookdown::render_book
 #bibliography_selected: "bib/selected.bib"
 bibliography_journals: "bib/journal.bib"
 bibliography_proceedings: "bib/proceedings.bib"
-bibliography_healthcare: "bib/healthcare.bib"
+#bibliography_healthcare: "bib/healthcare.bib"
 bibliography_working_paper: "bib/working_paper.bib"
-bibliography_R_packages: "bib/R_packages.bib"
-bibliography_github_projects: "bib/github.bib"
+#bibliography_R_packages: "bib/R_packages.bib"
+#bibliography_github_projects: "bib/github.bib"
 #given-name-pattern: JooYoung
 #family-name-pattern: Seo
 ---

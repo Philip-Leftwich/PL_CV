@@ -1,9 +1,19 @@
-\newpage
 
-# Certificates
+# Qualifications
 
-```{r certificate}
-ezpickr::pick("data/certificate.xlsx") %>%
-  filter(with != "IBM") %>%
-  vitae::detailed_entries(what, when, with, .protect = FALSE)
+```{r qualifications}
+qual <- do.call("rbind",
+               rorcid::orcid_qualifications("0000-0001-9500-6592")$`0000-0001-9500-6592`$`affiliation-group`$summaries
+)
+
+qual <- qual %>%
+    detailed_entries(
+        with = `qualification-summary.role-title`,
+        when = `qualification-summary.start-date.year.value`,
+        what = `qualification-summary.organization.name`,
+        where = `qualification-summary.organization.address.city`
+    )
+
+
+qual
 ```

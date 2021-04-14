@@ -1,7 +1,23 @@
 # Education
 
 ```{r education}
-ezpickr::pick("data/education.xlsx") %>%
-  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why)
+#Code for updating education and qualifications
+
+edu <- do.call("rbind",
+  rorcid::orcid_educations("0000-0001-9500-6592")$`0000-0001-9500-6592`$`affiliation-group`$summaries
+)
+edu <- edu %>%
+  detailed_entries(
+    with = `education-summary.role-title`,
+    when = glue::glue("{`education-summary.start-date.year.value`} - {`education-summary.end-date.year.value`}"),
+    what = `education-summary.organization.name`,
+    where = `education-summary.organization.address.city`
+  )
+
+edu$why[1] <- list(c("Thesis: Male Reproductive Success and Population Control in the Mediterranean Fruit Fly."))
+
+
+edu
+
+Sys.sleep(2) # Some sleep to stop 429 errors
 ```

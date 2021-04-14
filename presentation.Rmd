@@ -1,13 +1,14 @@
 # Presentations
 
-## Peer-Reviewed Conference Presentations
+## Conferences
 
-`r knitr::knit_child("data/poster_short.txt")`
 
-## Invited Guest Lectures
+## Seminars
 
 ```{r talk}
-ezpickr::pick("data/talk.xlsx") %>%
-  tidyr::fill(-why) %>%
-  vitae::detailed_entries(what, when, with, where, why, .protect = TRUE)
+
 ```
+
+## Outreach
+
+## Selected Media coverage

@@ -1,0 +1,346 @@
+---
+graphics: yes
+name: JooYoung
+surname: Seo
+headcolor: 414141
+#qualifications: 
+position: "Ph.D. Candidate (ABD); RStudio Trusted Data Science Instructor"
+address: "Learning, Design, and Technology, 301 Keller Building, University Park, PA 16802, USA"
+phone: "+1 814-777-5825"
+www: jooyoungseo.com
+email: "jooyoung@psu.edu"
+twitter: seo_jooyoung
+github: jooyoungseo
+linkedin: jooyoungseo
+aboutme: |
+  I am a learning scientist, data-science/software engineer, and internationally certified accessibility professional.
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+csl: "csl/apa6-cv.csl"
+nocite: "@*"
+header-includes:
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - \fancyhead[R]{\thepage}
+knit: bookdown::render_book
+#bibliography_selected: "bib/selected.bib"
+bibliography_journals: "bib/journal.bib"
+bibliography_proceedings: "bib/proceedings.bib"
+bibliography_healthcare: "bib/healthcare.bib"
+bibliography_working_paper: "bib/working_paper.bib"
+bibliography_R_packages: "bib/R_packages.bib"
+bibliography_github_projects: "bib/github.bib"
+#given-name-pattern: JooYoung
+#family-name-pattern: Seo
+---
+
+```{r setup, include=FALSE, cache = FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tidyverse)
+library(ezpickr)
+```
+
+<!--chapter:end:index.Rmd-->
+
+# Awards and Honors
+
+```{r award}
+ezpickr::pick("data/award.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+<!--chapter:end:award.Rmd-->
+
+# Notes
+
+* This CV is reproducible; all the source code behind this CV is available on [this GitHub repo](https://github.com/jooyoungseo/jy_CV){target="_blank"}.
+
+![JooYoung Seo's Signature](data/signature.png)\
+
+<!--chapter:end:backmatter.Rmd-->
+
+
+# Qualifications
+
+```{r qualifications}
+qual <- do.call("rbind",
+               rorcid::orcid_qualifications("0000-0001-9500-6592")$`0000-0001-9500-6592`$`affiliation-group`$summaries
+)
+
+qual <- qual %>%
+    detailed_entries(
+        with = `qualification-summary.role-title`,
+        when = `qualification-summary.start-date.year.value`,
+        what = `qualification-summary.organization.name`,
+        where = `qualification-summary.organization.address.city`
+    )
+
+
+qual
+```
+
+<!--chapter:end:certificate.Rmd-->
+
+# Education
+
+```{r education}
+#Code for updating education and qualifications
+
+edu <- do.call("rbind",
+  rorcid::orcid_educations("0000-0001-9500-6592")$`0000-0001-9500-6592`$`affiliation-group`$summaries
+)
+edu <- edu %>%
+  detailed_entries(
+    with = `education-summary.role-title`,
+    when = glue::glue("{`education-summary.start-date.year.value`} - {`education-summary.end-date.year.value`}"),
+    what = `education-summary.organization.name`,
+    where = `education-summary.organization.address.city`
+  )
+
+edu$why[1] <- list(c("Thesis: Male Reproductive Success and Population Control in the Mediterranean Fruit Fly."))
+
+
+edu
+
+Sys.sleep(2) # Some sleep to stop 429 errors
+```
+
+<!--chapter:end:education.Rmd-->
+
+
+# Grants
+
+```{r grant}
+ezpickr::pick("data/grant.csv") %>%
+  tidyr::fill(-why) %>%
+  arrange(desc(when)) %>% 
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+<!--chapter:end:grant.Rmd-->
+
+## Publications in Healthcare
+
+::: {#refs_healthcare}
+:::
+
+<!--chapter:end:healthcare.Rmd-->
+
+# Current Memberships
+
+  * International Society of the Learning Sciences (ISLS)
+  * Society for Learning Analytics Research (SoLAR)
+  * International Society for Quantitative Ethnography (ISQE)
+  * Association for Computing Machinery (ACM)
+  * American Educational Research Association (AERA)
+  * Association for Educational Communications and Technology (AECT)
+  * International Association of Accessibility Professionals (IAAP)
+
+<!--chapter:end:membership.Rmd-->
+
+# Presentations
+
+## Peer-Reviewed Conference Presentations
+
+`r knitr::knit_child("data/poster_short.txt")`
+
+## Invited Guest Lectures
+
+```{r talk}
+ezpickr::pick("data/talk.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why, .protect = TRUE)
+```
+
+<!--chapter:end:presentation.Rmd-->
+
+
+# Publications
+
+<!-- ## Selected Publications
+
+\begingroup
+\setlength{\parindent}{-0.5in}
+\setlength{\leftskip}{0.5in}
+
+::: {#refs_selected}
+:::
+\endgroup -->
+
+## Refereed Journal Papers
+
+::: {#refs_journals}
+:::
+
+## Working Papers under Revision or Review
+
+::: {#refs_working_paper}
+:::
+
+## Papers in Refereed Conference Proceedings
+
+::: {#refs_proceedings}
+:::
+
+<!--chapter:end:publication.Rmd-->
+
+
+\newpage
+
+# Research Experience
+
+```{r research-experience}
+ezpickr::pick("data/research-experience.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+<!--chapter:end:research_exp.Rmd-->
+
+# Primary Research Methods
+
+ * Data Science-Based Reproducible Research
+ * Learning Analytics/Statistical Computing
+ * Large-Scale-Longitudinal Quantitative/Virtual Ethnography
+ * Supervised/Unsupervised Machine Learning-Based Text Mining 
+ * Computational Linguistics/NLP
+
+
+<!--chapter:end:research_methods.Rmd-->
+
+# Research Topics
+
+ * Accessibility
+ * Universal Design
+ * Assistive Technology
+ * Accessible STEM Learning
+ * Computational Thinking for Learners with dis/ABILITIES
+ * Inclusive CSCL (Computer-Supported Collaborative Learning)
+
+<!--chapter:end:research_topics.Rmd-->
+
+# Service
+
+```{r service}
+ezpickr::pick("data/service.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+<!--chapter:end:service.Rmd-->
+
+# Skills
+
+\begin{cvskills}
+  \cvskill
+    {Braille}
+    {UEB (Unified English Braille), Nemeth (Math), Korean, Japanese Brailles}
+
+  \cvskill
+    {Data Science}
+    {R (highly advanced: published 3 packages in CRAN), Python (advanced: tensorflow/keras/scikit-learn), SQL}
+
+  \cvskill
+    {Reproducible Report}
+    {Markdown/Rmarkdown, R shiny apps, Jupyter Notebook, LaTeX, Pandoc, lua}
+
+  \cvskill
+    {DevOps}
+    {Git, Docker, AWS, Travis CI, Cygwin}
+
+  \cvskill
+    {Front-End}
+    {HTML/CSS/JS/PHP/ARIA (advanced level to design according to WCAG 2.0/2.1), WordPress, Drupal, Hugo}
+
+  \cvskill
+    {Back-End}
+    {Unix/Linux Shell scripts, LAMP, Django, REST API}
+
+  \cvskill
+    {Compile Programming Languages}
+    {C/C++/C\#, Java, Quorum}
+
+  \cvskill
+    {Quantitative Research}
+    {t-test, within-/between-subjects/Repeated Measures ANOVAs/ANCOVAs/MANOVAs/MANCOVAs, Regressions, \newline HLM, Factor Analysis, Network Analysis, SEM, PCA, Unsupervised/Supervised Machine Learning}
+
+  \cvskill
+    {Qualitative Research}
+    {Virtual Ethnography, Content Analysis, Grounded Theory, Phenomenology, Case Studies, Interaction Analysis}
+
+  \cvskill
+    {Mixed Research}
+    {Text Mining, Quantitative Ethnography, Explanatory/Exploratory Sequential Mixed Methods}
+
+  \cvskill
+    {Languages}
+    {English/Korean (bilingual)}
+\end{cvskills}
+
+<!--chapter:end:skills.Rmd-->
+
+# Software Developments and Publications
+
+## Data Science Packages in Comprehensive R Archive Network (CRAN)
+
+<!-- ```{r R-package, echo = FALSE, cache = FALSE, eval = FALSE}
+knitr::write_bib(c('ezpickr', 'mboxr', 'youtubecaption'), "bib/R_packages.bib")
+#R_package <- suppressMessages(RefManageR::ReadBib("bib/R_packages.bib", check = FALSE))
+#RefManageR:::print.BibEntry(R_package)
+####vitae::bibliography_entries("bib/R_packages.bib")
+``` -->
+
+::: {#refs_R_packages}
+:::
+
+\newpage
+
+## Open-Source Project on GitHub
+
+<!-- ```{r github, echo = FALSE, cache = FALSE, eval=T}
+#knitr::write_bib(c('tactileR', 'ezviewr', 'jladown', 'edmdown'), "bib/github.bib")
+#github <- suppressMessages(RefManageR::ReadBib("bib/github.bib", check = FALSE))
+#RefManageR:::print.BibEntry(github)
+####vitae::bibliography_entries("bib/github.bib")
+``` -->
+
+::: {#refs_github_projects}
+:::
+
+## Officially Code_Contributing R Packages
+
+* [My GitHub pull requests](https://github.com/pulls?q=is%3Apr+author%3Ajooyoungseo+archived%3Afalse+is%3Aclosed) have been peer-reviewed and merged for active data science R packages:
+
+```{r contribute}
+#knitr::write_bib(c('bookdown', 'distill', 'BrailleR', 'wordcountaddin'), "bib/contribute.bib")
+ezpickr::pick("data/contribute.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+<!--chapter:end:software_dev.Rmd-->
+
+# Teaching Experience
+
+```{r teaching-experience}
+ezpickr::pick("data/teaching-experience.xlsx") %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why)
+```
+
+<!--chapter:end:teaching_exp.Rmd-->
+
+# Work Experience
+
+```{r working-experience}
+ezpickr::pick("data/working-experience.xlsx") %>%
+  dplyr::filter(highlight == 1) %>%
+  tidyr::fill(-why) %>%
+  vitae::detailed_entries(what, when, with, where, why, .protect = FALSE)
+```
+
+<!--chapter:end:work_exp.Rmd-->
+

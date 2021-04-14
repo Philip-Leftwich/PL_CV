@@ -1,4 +1,16 @@
+\newpage
+
 # Publications
+
+```{r, echo=FALSE, warnings=FALSE}
+`%ni%` = Negate(`%in%`)
+profile <- scholar::get_profile("5-qU7lkAAAAJ&h")
+pub_num <- scholar::get_publications("5-qU7lkAAAAJ&h") %>%
+    distinct(title, .keep_all = TRUE) %>% filter(journal %ni% c("University of East Anglia", "OUP (Oxford)")) %>% nrow()
+
+```
+
+**h-index: `r profile$h_index`**, **Number of Publications: `r pub_num`**, **Citations: `r profile$total_cites`**
 
 <!-- ## Selected Publications
 
@@ -20,7 +32,7 @@
 ::: {#refs_working_paper}
 :::
 
-## Papers in Refereed Conference Proceedings
+## Books
 
 ::: {#refs_proceedings}
 :::

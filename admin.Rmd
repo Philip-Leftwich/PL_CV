@@ -1,0 +1,7 @@
+
+# Administrative Duties
+```{r}
+ezpickr::pick("data/admin.xlsx") %>%
+  dplyr::arrange(desc(when)) %>% 
+  vitae::detailed_entries(with, when, what, where)
+```
