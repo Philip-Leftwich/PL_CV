@@ -2,13 +2,38 @@
 
 ## Conferences
 
+```{r talk}
+
+speaking <- ezpickr::pick("data/speaking.xlsx") %>%
+  dplyr::arrange(desc(when))
+
+speaking %>% 
+  filter(type=="Conference") %>% 
+  vitae::detailed_entries(what, when, with, where)
+
+```
+
 
 ## Seminars
 
-```{r talk}
-
+```{r seminar}
+speaking %>% 
+  filter(type=="Seminar") %>% 
+  vitae::detailed_entries(what, when, with, where)
 ```
 
 ## Outreach
 
+```{r outreach}
+speaking %>% 
+  filter(type=="Outreach") %>% 
+  vitae::detailed_entries(what, when, with, where)
+```
+
 ## Selected Media coverage
+
+```{r media}
+speaking %>% 
+  filter(type=="Media") %>% 
+  vitae::detailed_entries(what, when, with, where)
+```

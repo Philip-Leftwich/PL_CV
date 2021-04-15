@@ -1,14 +1,11 @@
 library(tidyverse)
+library(RefManageR)
 `%ni%` = Negate(`%in%`)
+options(encoding = "UTF-8")
 
-pubs_df <- scholar::get_publications("5-qU7lkAAAAJ") %>%
-  distinct(title, .keep_all = TRUE) %>%
-  transmute(bibtype = "Article", author = as.character(author),
-            title = as.character(title),
-            journaltitle = as.character(journal), year, key = row_number(),
-            number = as.character(number), cites = as.numeric(cites),
-            pubid = as.character(pubid)
-  )
+
+pubs <- RefManageR::ReadGS(scholar.id="5-qU7lkAAAAJ", check.entries=FALSE) %>% 
+  as_tibble() 
 
 # Get full authors list for each publication - by default scholar truncates long author lists, 
 # can take some time but necessary to avoid 429 errors
@@ -22,24 +19,21 @@ for (i in 1:nrow(pubs_df)) {
   
 }
 
+pubs <- pubs%>% 
+  mutate(author=authors_full$authors)
 
-
-
-RefManageR::ReadGS(scholar.id="5-qU7lkAAAAJ", check.entries=FALSE) %>% 
-  as_tibble() %>% 
-  mutate(author=authors_full$authors) -> pubs
 
 pubs %>% 
   filter(institution %ni% c("University of East Anglia", "OUP (Oxford)", "bioRxiv")) %>%
   RefManageR::as.BibEntry() %>% 
-  RefManageR::WriteBib(file="bib/journal.bib", .Encoding="UTF-8")
+  RefManageR::WriteBib(file="bib/new_bib/journal.bib", biblatex = TRUE)
 
 pubs %>% 
   filter(institution =="OUP (Oxford)") %>% 
   mutate(bibtype="Book") %>% 
   mutate(type=NA) %>%
   RefManageR::as.BibEntry() %>% 
-  RefManageR::WriteBib(file="bib/proceedings.bib", .Encoding="UTF-8")
+  RefManageR::WriteBib(file="bib/new_bib/proceedings.bib", biblatex=TRUE)
 
 pubs %>% 
   filter(institution =="bioRxiv") %>% 
@@ -47,5 +41,5 @@ pubs %>%
   mutate(bibtype="Article") %>% 
   mutate(type=NA) %>% 
   RefManageR::as.BibEntry() %>% 
-  RefManageR::WriteBib(file="bib/working_paper.bib", .Encoding="UTF-8")
+  RefManageR::WriteBib(file="bib/new_bib/working_paper.bib", biblatex=TRUE)
 

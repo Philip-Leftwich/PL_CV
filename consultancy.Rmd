@@ -1,3 +1,7 @@
 # Consultancy
 
-
+```{r consultancy}
+ezpickr::pick("data/consultancy.xlsx") %>%
+  dplyr::arrange(desc(when)) %>% 
+  vitae::detailed_entries(what, when, with, where, why)
+```
