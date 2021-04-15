@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.4.14)  15 APR 2021 08:45
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.4.14)  15 APR 2021 13:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Leftwich_CV.tex
-(./Leftwich_CV.tex
+**Philip_Leftwich_CV.tex
+(./Philip_Leftwich_CV.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18> (./awesome-cv.cls
 Document Class: awesome-cv 2017/02/05 v1.6.1 Awesome Curriculum Vitae Class
@@ -907,8 +907,8 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \csllabelwidth=\skip83
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 109.
-(./Leftwich_CV.aux)
-\openout1 = `Leftwich_CV.aux'.
+(./Philip_Leftwich_CV.aux)
+\openout1 = `Philip_Leftwich_CV.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
 LaTeX Font Info:    ... okay on input line 109.
@@ -1028,9 +1028,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 109.
 LaTeX Info: Redefining \pageref on input line 109.
 LaTeX Info: Redefining \nameref on input line 109.
-(./Leftwich_CV.out) (./Leftwich_CV.out)
+(./Philip_Leftwich_CV.out) (./Philip_Leftwich_CV.out)
 \@outlinefile=\write6
-\openout6 = `Leftwich_CV.out'.
+\openout6 = `Philip_Leftwich_CV.out'.
 
 \headertextwidth=\skip84
 \headerphotowidth=\skip85
@@ -1146,17 +1146,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[5] (./Leftwich_CV.aux)
-Package rerunfilecheck Info: File `Leftwich_CV.out' has not changed.
+[5] (./Philip_Leftwich_CV.aux)
+Package rerunfilecheck Info: File `Philip_Leftwich_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  31580 strings out of 478918
- 632289 string characters out of 5865075
- 1112391 words of memory out of 5000000
+ 632394 string characters out of 5865075
+ 1112412 words of memory out of 5000000
  50898 multiletter control sequences out of 15000+600000
  407738 words of font info for 111 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 127i,12n,130p,549b,632s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 127i,12n,130p,556b,632s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Leftwich_CV.pdf (5 pages).
+Output written on Philip_Leftwich_CV.pdf (5 pages).

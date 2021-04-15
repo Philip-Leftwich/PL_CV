@@ -1,4 +1,4 @@
-output_dir: "docs"
+
 rmd_files:
   - "index.Rmd"
   - "education.Rmd"
@@ -10,5 +10,6 @@ rmd_files:
   - "consultancy.Rmd"
   - "professional_service.Rmd"
   - "publication.Rmd"
-book_filename: "Leftwich_CV"
+book_filename: "Philip_Leftwich_CV"
+output_dir: "book-output"
 delete_merged_file: true
