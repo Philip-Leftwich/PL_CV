@@ -1,6 +1,13 @@
 
-# JooYoung Seo's Academic CV
+# Philip Leftwich's Academic CV
 
+## Updates 
+
+small changes from jy_cv to include google scholar scraping for an automatically updated series of bib files for publication listing
+
+
+
+Forked from jooyoungseo/jy_cv
 ## Enhancements Compared to the default `vitae` package:
 
 * Styling your publications using given csl file in `YAML`.
