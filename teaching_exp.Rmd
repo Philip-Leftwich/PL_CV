@@ -1,7 +1,15 @@
 # Teaching 
 
-```{r teaching-experience}
-ezpickr::pick("data/teaching.xlsx") %>%
-  dplyr::arrange(desc(when)) %>% 
-  vitae::detailed_entries(what, when, with, where)
-```
+\begin{cvskills}
+  \cvskill
+    {Module organiser}
+    {Data Science for Biologists; Genetics}
+    
+  \cvskill
+    {Lecturer}
+    {Genes, Genomes and Genomics; Science Communication; Skills for Biologists;\newline Microbiology;Biodiversity; Evolution, Behaviour and Ecology;\newline Medical Entomology (LSHTM)}
+   
+  \cvskill
+    {Tutor}
+    {Field Ecology; Evolution, Health and Disease}  
+\end{cvskills}

@@ -1,5 +1,18 @@
 # Professional Service
 
-```{r service}
 
-```
+\begin{cvskills}
+  \cvskill
+    {Article reviews}
+    {Behavioural ecology and sociobiology; BMC biology; Insects; 
+    Journal of Evolutionary Biology;\newline Phil. Transactions of the Royal Society; 
+    PLoS Genetics; Proceedings of the Royal Society; Molecular Ecology}
+    
+  \cvskill
+    {Grant reviews}
+    {BBSRC Fellowships; GWIS National Fellowships}
+   
+  \cvskill
+    {Professional memberships}
+    {Genetics Society}  
+\end{cvskills}

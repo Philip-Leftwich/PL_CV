@@ -10,7 +10,7 @@ pub_num <- scholar::get_publications("5-qU7lkAAAAJ&h") %>%
 
 ```
 
-**h-index: `r profile$h_index`**, **Number of Publications: `r pub_num`**, **Citations: `r profile$total_cites`**
+**Google Scholar metrics: h-index: `r profile$h_index`**, **Number of Publications: `r pub_num`**
 
 <!-- ## Selected Publications
 
@@ -24,13 +24,18 @@ pub_num <- scholar::get_publications("5-qU7lkAAAAJ&h") %>%
 
 ## Refereed Journal Papers
 
+
 ::: {#refs_journals}
 :::
+
+
 
 ## Working Papers under Revision or Review
 
 ::: {#refs_working_paper}
 :::
+
+
 
 ## Books
 

@@ -1,59 +1,52 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.4.14)  15 APR 2021 13:57
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.6.4)  4 JUN 2021 08:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Philip_Leftwich_CV.tex
 (./Philip_Leftwich_CV.tex
-LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-02-18> (./awesome-cv.cls
+LaTeX2e <2021-06-01>
+L3 programming layer <2021-06-01> (./awesome-cv.cls
 Document Class: awesome-cv 2017/02/05 v1.6.1 Awesome Curriculum Vitae Class
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+File: size11.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count175
-\c@section=\count176
-\c@subsection=\count177
-\c@subsubsection=\count178
-\c@paragraph=\count179
-\c@subparagraph=\count180
-\c@figure=\count181
-\c@table=\count182
+\c@part=\count178
+\c@section=\count179
+\c@subsection=\count180
+\c@subsubsection=\count181
+\c@paragraph=\count182
+\c@subparagraph=\count183
+\c@figure=\count184
+\c@table=\count185
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 ) (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
-Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
 \col@sep=\dimen139
-\ar@mcellbox=\box47
+\ar@mcellbox=\box50
 \extrarowheight=\dimen140
-\NC@list=\toks15
+\NC@list=\toks16
 \extratabsurround=\skip49
 \backup@length=\skip50
-\ar@cellbox=\box48
+\ar@cellbox=\box51
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/enumitem/enumitem.
 sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\enitkv@toks@=\toks16
+\enitkv@toks@=\toks17
 \labelindent=\skip51
 \enit@outerparindent=\dimen141
-\enit@toks=\toks17
-\enit@inbox=\box49
-\enit@count@id=\count183
-\enitdp@description=\count184
+\enit@toks=\toks18
+\enit@inbox=\box52
+\enit@count@id=\count186
+\enitdp@description=\count187
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/ragged2e/ragged2e.
 sty
 Package: ragged2e 2021/02/05 v3.0 ragged2e Package
-
-(c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/everysel/everysel.
-sty
-Package: everysel 2021/01/20 v2.1 EverySelectfont Package (MS)
-
-(c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/everysel/everysel-
-2011-10-28.sty))
 \CenteringLeftskip=\skip52
 \RaggedLeftLeftskip=\skip53
 \RaggedRightLeftskip=\skip54
@@ -76,16 +69,16 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/keyval.st
 y
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks18
+\KV@toks@=\toks19
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count185
-\Gm@cntv=\count186
-\c@Gm@tempcnt=\count187
+\Gm@cnth=\count188
+\Gm@cntv=\count189
+\c@Gm@tempcnt=\count190
 \Gm@bindingoffset=\dimen142
 \Gm@wd@mp=\dimen143
 \Gm@odd@mp=\dimen144
@@ -94,7 +87,7 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layoutheight=\dimen147
 \Gm@layouthoffset=\dimen148
 \Gm@layoutvoffset=\dimen149
-\Gm@dimlist=\toks19
+\Gm@dimlist=\toks20
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.
 sty
@@ -141,18 +134,18 @@ y
 Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count188
-\calc@Bcount=\count189
+\calc@Acount=\count191
+\calc@Bcount=\count192
 \calc@Adimen=\dimen150
 \calc@Bdimen=\dimen151
 \calc@Askip=\skip75
 \calc@Bskip=\skip76
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count190
+\calc@Ccount=\count193
 \calc@Cskip=\skip77
 ) (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/ifmtarg/ifmtarg.st
 y
@@ -161,7 +154,7 @@ Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.
 sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count191
+\etb@tempcnta=\count194
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/setspace/setspace.
 sty
@@ -172,47 +165,45 @@ sty
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/
 xparse.sty
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2021-02-18 L3 programming layer (loader) 
+Package: expl3 2021-06-01 L3 programming layer (loader) 
 
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
 d-xetex.def
-File: l3backend-xetex.def 2021-03-18 L3 backend support: XeTeX
+File: l3backend-xetex.def 2021-05-07 L3 backend support: XeTeX
 (|extractbb --version)
-\c__kernel_sys_dvipdfmx_version_int=\count192
-\l__color_backend_stack_int=\count193
-\g__color_backend_stack_int=\count194
-\g__graphics_track_int=\count195
-\l__pdf_internal_box=\box50
-\g__pdf_backend_object_int=\count196
-\g__pdf_backend_annotation_int=\count197
-\g__pdf_backend_link_int=\count198
+\c__kernel_sys_dvipdfmx_version_int=\count195
+\l__color_backend_stack_int=\count196
+\g__color_backend_stack_int=\count197
+\g__graphics_track_int=\count198
+\l__pdf_internal_box=\box53
+\g__pdf_backend_object_int=\count199
+\g__pdf_backend_annotation_int=\count266
+\g__pdf_backend_link_int=\count267
 ))
-(c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/
-xparse-2020-10-01.sty
-(c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/
-xparse-generic.tex)))
+Package: xparse 2021-06-01 L3 Experimental document command parser
+)
 Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
 
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec-
 xetex.sty
 Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count199
-\l__fontspec_language_int=\count266
-\l__fontspec_strnum_int=\count267
-\l__fontspec_tmp_int=\count268
-\l__fontspec_tmpa_int=\count269
-\l__fontspec_tmpb_int=\count270
-\l__fontspec_tmpc_int=\count271
-\l__fontspec_em_int=\count272
-\l__fontspec_emdef_int=\count273
-\l__fontspec_strong_int=\count274
-\l__fontspec_strongdef_int=\count275
+\l__fontspec_script_int=\count268
+\l__fontspec_language_int=\count269
+\l__fontspec_strnum_int=\count270
+\l__fontspec_tmp_int=\count271
+\l__fontspec_tmpa_int=\count272
+\l__fontspec_tmpb_int=\count273
+\l__fontspec_tmpc_int=\count274
+\l__fontspec_em_int=\count275
+\l__fontspec_emdef_int=\count276
+\l__fontspec_strong_int=\count277
+\l__fontspec_strongdef_int=\count278
 \l__fontspec_tmpa_dim=\dimen152
 \l__fontspec_tmpb_dim=\dimen153
 \l__fontspec_tmpc_dim=\dimen154
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.
 cfg)))
@@ -227,16 +218,16 @@ TeX
 
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2
 e/l3keys2e.sty
-Package: l3keys2e 2021-03-12 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2021-06-01 LaTeX2e option processing using LaTeX3 keys
 ) (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fix-cm.sty
-Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.st
 y
-Package: amsmath 2020/09/23 v2.17i AMS math features
+Package: amsmath 2021/04/20 v2.17j AMS math features
 \@mathmargin=\skip78
 For additional information on amsmath, use the `?' option.
 
@@ -246,7 +237,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks20
+\@emptytoks=\toks21
 \ex@=\dimen155
 ))
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -256,47 +247,47 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count276
+\inf@bad=\count279
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count277
-\leftroot@=\count278
+\uproot@=\count280
+\leftroot@=\count281
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count279
-\DOTSCASE@=\count280
+\classnum@=\count282
+\DOTSCASE@=\count283
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box51
-\strutbox@=\box52
+\Mathstrutbox@=\box54
+\strutbox@=\box55
 \big@size=\dimen157
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count281
-\c@MaxMatrixCols=\count282
+\macc@depth=\count284
+\c@MaxMatrixCols=\count285
 \dotsspace@=\muskip16
-\c@parentequation=\count283
-\dspbrk@lvl=\count284
-\tag@help=\toks21
-\row@=\count285
-\column@=\count286
-\maxfields@=\count287
-\andhelp@=\toks22
+\c@parentequation=\count286
+\dspbrk@lvl=\count287
+\tag@help=\toks22
+\row@=\count288
+\column@=\count289
+\maxfields@=\count290
+\andhelp@=\toks23
 \eqnshift@=\dimen158
 \alignsep@=\dimen159
 \tagshift@=\dimen160
 \tagwidth@=\dimen161
 \totwidth@=\dimen162
 \lineht@=\dimen163
-\@envbody=\toks23
+\@envbody=\toks24
 \multlinegap=\skip79
 \multlinetaggap=\skip80
-\mathdisplay@stack=\toks24
+\mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
-\g__um_fam_int=\count288
-\g__um_fonts_used_int=\count289
-\l__um_primecount_int=\count290
+\g__um_fam_int=\count291
+\g__um_fonts_used_int=\count292
+\l__um_primecount_int=\count293
 \g__um_primekern_muskip=\muskip17
 
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unico
@@ -329,10 +320,10 @@ Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 tex
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils
 .tex
-\XKV@toks=\toks25
-\XKV@tempa@toks=\toks26
+\XKV@toks=\toks26
+\XKV@tempa@toks=\toks27
 )
-\XKV@depth=\count291
+\XKV@depth=\count294
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
@@ -344,7 +335,7 @@ e 123.
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tcolorbox/tcolorbo
 x.sty
-Package: tcolorbox 2020/10/09 version 4.42 text color boxes
+Package: tcolorbox 2021/05/21 version 4.50 text color boxes
 
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgf
 .sty
@@ -352,7 +343,7 @@ Package: tcolorbox 2020/10/09 version 4.42 text color boxes
 cs.sty
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pg
 futil-common.tex
-\pgfutil@everybye=\toks27
+\pgfutil@everybye=\toks28
 \pgfutil@tempdima=\dimen164
 \pgfutil@tempdimb=\dimen165
 
@@ -360,25 +351,25 @@ futil-common.tex
 futil-common-lists.tex))
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pg
 futil-latex.def
-\pgfutil@abb=\box53
+\pgfutil@abb=\box56
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pg
 frcs.code.tex
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/pgf.revision
 .tex)
-Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
 ))
-Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
 
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgf
 core.sty
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.
 sty
-Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
 
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphics.
 sty
-Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
@@ -386,7 +377,7 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 ics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 105.
+Package graphics Info: Driver file: xetex.def on input line 107.
 )
 \Gin@req@height=\dimen166
 \Gin@req@width=\dimen167
@@ -395,16 +386,16 @@ Package graphics Info: Driver file: xetex.def on input line 105.
 fsys.sty
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/
 pgfsys.code.tex
-Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pg
 fkeys.code.tex
-\pgfkeys@pathtoks=\toks28
-\pgfkeys@temptoks=\toks29
+\pgfkeys@pathtoks=\toks29
+\pgfkeys@temptoks=\toks30
 
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pg
 fkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks30
+\pgfkeys@tmptoks=\toks31
 ))
 \pgf@x=\dimen168
 \pgf@y=\dimen169
@@ -418,48 +409,48 @@ fkeysfiltered.code.tex
 \pgf@yd=\dimen177
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count292
-\c@pgf@countb=\count293
-\c@pgf@countc=\count294
-\c@pgf@countd=\count295
-\t@pgf@toka=\toks31
-\t@pgf@tokb=\toks32
-\t@pgf@tokc=\toks33
-\pgf@sys@id@count=\count296
+\c@pgf@counta=\count295
+\c@pgf@countb=\count296
+\c@pgf@countc=\count297
+\c@pgf@countd=\count298
+\t@pgf@toka=\toks32
+\t@pgf@tokb=\toks33
+\t@pgf@tokc=\toks34
+\pgf@sys@id@count=\count299
 
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/
 pgf.cfg
-File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
 Driver file for pgf: pgfsys-xetex.def
 
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/
 pgfsys-xetex.def
-File: pgfsys-xetex.def 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfsys-xetex.def 2021/05/15 v3.1.9a (3.1.9a)
 
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/
 pgfsys-dvipdfmx.def
-File: pgfsys-dvipdfmx.def 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfsys-dvipdfmx.def 2021/05/15 v3.1.9a (3.1.9a)
 
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/
 pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 )
-\pgfsys@objnum=\count297
+\pgfsys@objnum=\count300
 )))
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/
 pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfsyssoftpath@smallbuffer@items=\count298
-\pgfsyssoftpath@bigbuffer@items=\count299
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count301
+\pgfsyssoftpath@bigbuffer@items=\count302
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/
 pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcore.code.tex
-Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath
 .code.tex
@@ -470,11 +461,11 @@ util.code.tex)
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath
 parser.code.tex
 \pgfmath@dimen=\dimen178
-\pgfmath@count=\count300
-\pgfmath@box=\box54
-\pgfmath@toks=\toks34
-\pgfmath@stack@operand=\toks35
-\pgfmath@stack@operation=\toks36
+\pgfmath@count=\count303
+\pgfmath@box=\box57
+\pgfmath@toks=\toks35
+\pgfmath@stack@operand=\toks36
+\pgfmath@stack@operation=\toks37
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath
 functions.code.tex
@@ -496,13 +487,13 @@ functions.misc.code.tex)
 functions.integerarithmetics.code.tex)))
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath
 float.code.tex
-\c@pgfmathroundto@lastzeros=\count301
+\c@pgfmathroundto@lastzeros=\count304
 ))
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfint.
 code.tex)
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@picminx=\dimen179
 \pgf@picmaxx=\dimen180
 \pgf@picminy=\dimen181
@@ -520,108 +511,108 @@ File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@path@lastx=\dimen193
 \pgf@path@lasty=\dimen194
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@shorten@end@additional=\dimen195
 \pgf@shorten@start@additional=\dimen196
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfpic=\box55
-\pgf@hbox=\box56
-\pgf@layerbox@main=\box57
-\pgf@picture@serial@count=\count302
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box58
+\pgf@hbox=\box59
+\pgf@layerbox@main=\box60
+\pgf@picture@serial@count=\count305
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgflinewidth=\dimen197
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcoretransformations.code.tex
-File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@pt@x=\dimen198
 \pgf@pt@y=\dimen199
 \pgf@pt@temp=\dimen256
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcorequick.code.tex
-File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcoreobjects.code.tex
-File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcorepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfarrowsep=\dimen257
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@max=\dimen258
-\pgf@sys@shading@range@num=\count303
-\pgf@shadingcount=\count304
+\pgf@sys@shading@range@num=\count306
+\pgf@shadingcount=\count307
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfexternal@startupbox=\box58
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box61
 ))
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/p
 gfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfm
 oduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfnodeparttextbox=\box59
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box62
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfm
 oduleplot.code.tex
-File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/compatibility/
 pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@nodesepstart=\dimen259
 \pgf@nodesepend=\dimen260
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/compatibility/
 pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
 ))
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks37
-\verbatim@line=\toks38
+\every@verbatim=\toks38
+\verbatim@line=\toks39
 \verbatim@in@stream=\read3
 )
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/environ/environ.st
@@ -632,23 +623,21 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 ces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\tcb@titlebox=\box60
-\tcb@upperbox=\box61
-\tcb@lowerbox=\box62
-\tcb@phantombox=\box63
-\c@tcbbreakpart=\count305
-\c@tcblayer=\count306
-\c@tcolorbox@number=\count307
-\tcb@temp=\box64
-\tcb@temp=\box65
-\tcb@temp=\box66
+\tcb@titlebox=\box63
+\tcb@upperbox=\box64
+\tcb@lowerbox=\box65
+\tcb@phantombox=\box66
+\c@tcbbreakpart=\count308
+\c@tcblayer=\count309
+\c@tcolorbox@number=\count310
 \tcb@temp=\box67
-\tcb@out=\write4
-\tcb@record@out=\write5
+\tcb@temp=\box68
+\tcb@temp=\box69
+\tcb@temp=\box70
 
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tcolorbox/tcbskins
 .code.tex
-Library (tcolorbox): 'tcbskins.code.tex' version '4.42'
+Library (tcolorbox): 'tcbskins.code.tex' version '4.50'
 
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/frontendlayer/
 tikz.sty
@@ -664,23 +653,23 @@ ty
 .code.tex))
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pg
 ffor.code.tex
-Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath
 .code.tex)
 \pgffor@iter=\dimen261
 \pgffor@skip=\dimen262
-\pgffor@stack=\toks39
-\pgffor@toks=\toks40
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
 ))
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlaye
 r/tikz/tikz.code.tex
-Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pg
 flibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@plot@mark@count=\count308
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count311
 \pgfplotmarksize=\dimen263
 )
 \tikz@lastx=\dimen264
@@ -691,33 +680,33 @@ File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \tikz@lastmovetoy=\dimen269
 \tikzleveldistance=\dimen270
 \tikzsiblingdistance=\dimen271
-\tikz@figbox=\box68
-\tikz@figbox@bg=\box69
-\tikz@tempbox=\box70
-\tikz@tempbox@bg=\box71
-\tikztreelevel=\count309
-\tikznumberofchildren=\count310
-\tikznumberofcurrentchild=\count311
-\tikz@fig@count=\count312
+\tikz@figbox=\box71
+\tikz@figbox@bg=\box72
+\tikz@tempbox=\box73
+\tikz@tempbox@bg=\box74
+\tikztreelevel=\count312
+\tikznumberofchildren=\count313
+\tikznumberofcurrentchild=\count314
+\tikz@fig@count=\count315
 
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfm
 odulematrix.code.tex
-File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfmatrixcurrentrow=\count313
-\pgfmatrixcurrentcolumn=\count314
-\pgf@matrix@numberofcolumns=\count315
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count316
+\pgfmatrixcurrentcolumn=\count317
+\pgf@matrix@numberofcolumns=\count318
 )
-\tikz@expandcount=\count316
+\tikz@expandcount=\count319
 
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlaye
 r/tikz/libraries/tikzlibrarytopaths.code.tex
-File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
-\tcb@waterbox=\box72
+\tcb@waterbox=\box75
 
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tcolorbox/tcbskins
 jigsaw.code.tex
-Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.42'
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.50'
 )))
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/parskip/parskip.st
 y
@@ -773,8 +762,8 @@ y
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen272
-\Hy@linkcounter=\count317
-\Hy@pagecounter=\count318
+\Hy@linkcounter=\count320
+\Hy@pagecounter=\count321
 
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.de
 f
@@ -793,7 +782,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 s.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count319
+\Hy@SavedSpaceFactor=\count322
 
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
@@ -806,7 +795,7 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count320
+\c@Hy@tempcnt=\count323
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -823,7 +812,7 @@ tcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count321
+\Fld@menulength=\count324
 \Field@Width=\dimen274
 \Fld@charsize=\dimen275
 Package hyperref Info: Hyper figures OFF on input line 6075.
@@ -838,13 +827,12 @@ LaTeX Info: Redefining \pageref on input line 6149.
 
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.
 sty
-Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
-ge
-with kernel methods
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
 )
-\Hy@abspage=\count322
-\c@Item=\count323
-\c@Hfootnote=\count324
+\Hy@abspage=\count325
+\c@Item=\count326
+\c@Hfootnote=\count327
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
@@ -857,11 +845,11 @@ enc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box73
-\c@Hy@AnnotLevel=\count325
-\HyField@AnnotCount=\count326
-\Fld@listcount=\count327
-\c@bookmark@seq@number=\count328
+\pdfm@box=\box76
+\c@Hy@AnnotLevel=\count328
+\HyField@AnnotCount=\count329
+\Fld@listcount=\count330
+\c@bookmark@seq@number=\count331
 
 (c:/Users/phill/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rer
 unfilecheck.sty
@@ -895,12 +883,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen283
 \cmidrulekern=\dimen284
 \defaultaddspace=\dimen285
-\@cmidla=\count329
-\@cmidlb=\count330
+\@cmidla=\count332
+\@cmidlb=\count333
 \@aboverulesep=\dimen286
 \@belowrulesep=\dimen287
-\@thisruleclass=\count331
-\@lastruleclass=\count332
+\@thisruleclass=\count334
+\@lastruleclass=\count335
 \@thisrulewidth=\dimen288
 )
 \cslhangindent=\skip82
@@ -930,8 +918,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
 LaTeX Font Info:    ... okay on input line 109.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 109.
 LaTeX Font Info:    ... okay on input line 109.
-ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 109.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1023,14 +1009,14 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count333
+\c@section@level=\count336
 )
 LaTeX Info: Redefining \ref on input line 109.
 LaTeX Info: Redefining \pageref on input line 109.
 LaTeX Info: Redefining \nameref on input line 109.
 (./Philip_Leftwich_CV.out) (./Philip_Leftwich_CV.out)
-\@outlinefile=\write6
-\openout6 = `Philip_Leftwich_CV.out'.
+\@outlinefile=\write4
+\openout4 = `Philip_Leftwich_CV.out'.
 
 \headertextwidth=\skip84
 \headerphotowidth=\skip85
@@ -1093,16 +1079,10 @@ t line 137.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
 (Font)              scaled to size 8.0pt on input line 137.
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
+Overfull \hbox (41.24791pt too wide) in alignment at lines 180--192
+[] [] 
+ []
 
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[1
-
-]
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 198.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
@@ -1115,7 +1095,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
+[1
+
+]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [2]
+Overfull \hbox (81.9579pt too wide) in alignment at lines 274--288
+[] [] 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1126,9 +1121,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3]
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/b/n' will be
-(Font)              scaled to size 10.95pt on input line 278.
+(Font)              scaled to size 10.95pt on input line 295.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 289.
+(Font)              scaled to size 10.95pt on input line 305.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1151,12 +1146,12 @@ Package rerunfilecheck Info: File `Philip_Leftwich_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31580 strings out of 478918
- 632394 string characters out of 5865075
- 1112412 words of memory out of 5000000
- 50898 multiletter control sequences out of 15000+600000
+ 31805 strings out of 478489
+ 637531 string characters out of 5858083
+ 1132128 words of memory out of 5000000
+ 51569 multiletter control sequences out of 15000+600000
  407738 words of font info for 111 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 127i,12n,130p,556b,632s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 116i,12n,122p,556b,634s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Philip_Leftwich_CV.pdf (5 pages).
