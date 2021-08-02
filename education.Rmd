@@ -21,3 +21,31 @@ edu
 
 Sys.sleep(2) # Some sleep to stop 429 errors
 ```
+
+
+# Employment
+
+```{r employment}
+# Get employment history from orcid - replace my orcid ID with yours
+empl <- rorcid::orcid_employments("0000-0001-9500-6592")$`0000-0001-9500-6592`$`affiliation-group`$summaries
+
+empl <- bind_rows(empl) %>%
+  select(`employment-summary.department-name`,
+         `employment-summary.organization.name`,
+         `employment-summary.organization.address.city`,
+         `employment-summary.role-title`,
+         `employment-summary.end-date.year.value`,
+         `employment-summary.start-date.year.value`) %>%
+  mutate(
+    `employment-summary.end-date.year.value` = ifelse(is.na(`employment-summary.end-date.year.value`), "Current", `employment-summary.end-date.year.value`)
+  ) %>%
+  detailed_entries(
+    ### swapped with and what to emphasise job title over institute
+    with = `employment-summary.role-title`,
+    what = glue::glue("{`employment-summary.department-name`}, {`employment-summary.organization.name`}"),
+    where = `employment-summary.organization.address.city`,
+    when = glue::glue("{`employment-summary.start-date.year.value`} - {`employment-summary.end-date.year.value`}")
+  )
+
+empl 
+```

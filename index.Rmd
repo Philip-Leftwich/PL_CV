@@ -12,7 +12,7 @@ email: "p.leftwich@uea.ac.uk"
 twitter: philipleftwich
 github: Philip-Leftwich
 linkedin: philip-leftwich-117052155
-#aboutme: |
+aboutme: I am a PhD research scientist and lecturer, with experience in genetics, data science and microbiome community analysis.
   
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 csl: "csl/apa6-cv.csl"
@@ -30,9 +30,15 @@ bibliography_proceedings: "bib/proceedings.bib"
 bibliography_working_paper: "bib/working_paper.bib"
 #bibliography_R_packages: "bib/R_packages.bib"
 #bibliography_github_projects: "bib/github.bib"
-#given-name-pattern: JooYoung
-#family-name-pattern: Seo
+
 ---
+
+\colorlet{awesome}{awesome-skyblue}
+
+
+\makeatletter
+\def\@sectioncolor{\color{awesome}}
+\makeatother
 
 ```{r setup, include=FALSE, cache = FALSE}
 library(knitr)

@@ -1,5 +1,5 @@
 # Notes
 
-* This CV is reproducible; all the source code behind this CV is available on [this GitHub repo](https://github.com/jooyoungseo/jy_CV){target="_blank"}.
+* This CV is a reproducible project; all the source code behind this CV is available on [this GitHub repo](https://github.com/Philip-Leftwich/PL_CV){target="_blank"}.
 
-![JooYoung Seo's Signature](data/signature.png)\
+![Phil Leftwich's signature](data/PL_sig.png){width=25% height="10%"}/

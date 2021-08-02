@@ -2,6 +2,7 @@
 
 ```{r consultancy}
 ezpickr::pick("data/consultancy.xlsx") %>%
+    tidyr::fill(-why) %>%
   dplyr::arrange(desc(when)) %>% 
   vitae::detailed_entries(what, when, with, where, why)
 ```

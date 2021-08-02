@@ -3,7 +3,7 @@
 \begin{cvskills}
   \cvskill
     {Module organiser}
-    {Data Science for Biologists; Genetics}
+    {Data Science for Biologists; \newline Genetics}
     
   \cvskill
     {Lecturer}
@@ -12,4 +12,9 @@
   \cvskill
     {Tutor}
     {Field Ecology; Evolution, Health and Disease}  
+    
+  \cvskill
+    {Outreach}
+    {The Brilliant Club, Villier's Park Educational Trust, Royal Society Summer Science} 
+    
 \end{cvskills}

@@ -10,7 +10,7 @@ pub_num <- scholar::get_publications("5-qU7lkAAAAJ&h") %>%
 
 ```
 
-**Google Scholar metrics: h-index: `r profile$h_index`**, **Number of Publications: `r pub_num`**
+**Google Scholar metrics: h-index: `r profile$h_index`**
 
 <!-- ## Selected Publications
 

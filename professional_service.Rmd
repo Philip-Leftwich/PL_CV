@@ -14,5 +14,5 @@
    
   \cvskill
     {Professional memberships}
-    {Genetics Society}  
+    {Genetics Society; Vectorbite; Nationwide Network of BioScience Educators; Advance HE}  
 \end{cvskills}
