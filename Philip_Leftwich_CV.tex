@@ -1,0 +1,488 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\definecolor{awesome}{HTML}{414141}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\name{Philip T.}{Leftwich}
+
+
+\mobile{+44 7871 041 012}
+\email{\href{mailto:p.leftwich@uea.ac.uk}{\nolinkurl{p.leftwich@uea.ac.uk}}}
+\homepage{philip-leftwich.github.io}
+\github{Philip-Leftwich}
+\linkedin{philip-leftwich-117052155}
+\twitter{philipleftwich}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+\quote{I am a PhD research scientist and lecturer, with experience in
+genetics, data science and microbiome community analysis.}
+
+\usepackage{booktabs}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\thepage}
+
+% Pandoc CSL macros
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[3] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+\makecvfooter
+  {August 02, 2021}
+    {Philip T. Leftwich~~~·~~~Curriculum Vitae}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\colorlet{awesome}{awesome-skyblue}
+
+\makeatletter
+\def\@sectioncolor{\color{awesome}}
+\makeatother
+
+\hypertarget{education}{%
+\section{Education}\label{education}}
+
+\begin{cventries}
+    \cventry{University of East Anglia}{PhD}{Norwich}{2009 - 2013}{\begin{cvitems}
+\item Thesis: Male Reproductive Success and Population Control in the Mediterranean Fruit Fly.
+\end{cvitems}}
+    \cventry{Durham University}{BSc (Hons) / Zoology}{Durham}{2004 - 2008}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{employment}{%
+\section{Employment}\label{employment}}
+
+\begin{cventries}
+    \cventry{Biological Sciences, University of East Anglia}{Lecturer}{Norwich}{2019 - Current}{}\vspace{-4.0mm}
+    \cventry{Arthropod Genetics Group, Pirbright Institute}{Postdoctoral Researcher/Project Manager}{Pirbright}{2016 - 2019}{}\vspace{-4.0mm}
+    \cventry{Biological Sciences, University of East Anglia}{Lecturer in Ecology and Biodiversity}{Norwich}{2015 - 2016}{}\vspace{-4.0mm}
+    \cventry{Biological Sciences, University of East Anglia}{Postdoctoral Researcher}{Norwich}{2012 - 2015}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{qualifications}{%
+\section{Qualifications}\label{qualifications}}
+
+\begin{cventries}
+    \cventry{Higher Education Academy}{HEA Fellow}{York}{2016}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{teaching}{%
+\section{Teaching}\label{teaching}}
+
+\begin{cvskills}
+  \cvskill
+    {Module organiser}
+    {Data Science for Biologists; \newline Genetics}
+    
+  \cvskill
+    {Lecturer}
+    {Genes, Genomes and Genomics; Science Communication; Skills for Biologists;\newline Microbiology;Biodiversity; Evolution, Behaviour and Ecology;\newline Medical Entomology (LSHTM)}
+   
+  \cvskill
+    {Tutor}
+    {Field Ecology; Evolution, Health and Disease}  
+    
+  \cvskill
+    {Outreach}
+    {The Brilliant Club, Villier's Park Educational Trust, Royal Society Summer Science} 
+    
+\end{cvskills}
+
+\hypertarget{administrative-duties}{%
+\section{Administrative Duties}\label{administrative-duties}}
+
+\begin{cventries}
+    \cventry{School of Biological Sciences}{Chair of Extenuating Circumstances Panel}{University of East Anglia}{2021-present}{}\vspace{-4.0mm}
+    \cventry{Faculty of Science}{Statistician - Animal Welfare Ethical Review Body}{University of East Anglia}{2021-present}{}\vspace{-4.0mm}
+    \cventry{School of Biological Sciences}{Student Partnership Officer}{University of East Anglia}{2019-present}{}\vspace{-4.0mm}
+\end{cventries}
+
+\newpage
+
+\hypertarget{professional-service}{%
+\section{Professional Service}\label{professional-service}}
+
+\begin{cvskills}
+  \cvskill
+    {Article reviews}
+    {Behavioural ecology and sociobiology; BMC biology; Insects; 
+    Journal of Evolutionary Biology;\newline Phil. Transactions of the Royal Society; 
+    PLoS Genetics; Proceedings of the Royal Society; Molecular Ecology}
+    
+  \cvskill
+    {Grant reviews}
+    {BBSRC Fellowships; GWIS National Fellowships}
+   
+  \cvskill
+    {Professional memberships}
+    {Genetics Society; Vectorbite; Nationwide Network of BioScience Educators; Advance HE}  
+\end{cvskills}
+
+\hypertarget{consultancy}{%
+\section{Consultancy}\label{consultancy}}
+
+\begin{cventries}
+    \cventry{Author}{OUP}{Oxford}{2020-present}{\begin{cvitems}
+\item Maths Skills for A-level Biology 2nd Edition: a practical handbook: https://amzn.to/3xjUUlN
+\item The Scientific Method and Experimental Design (In prep) - part of the Oxford Biology Primers book series
+\end{cvitems}}
+    \cventry{Consultant and content developer}{Benchling}{San Francisco}{2020-present}{\begin{cvitems}
+\item Consultancy and speaking
+\item Content developer: https://www.benchling.com/educators/
+\end{cvitems}}
+    \cventry{Instructor}{Physalia Courses}{Online}{2019}{\begin{cvitems}
+\item An Introduction to Population Genomics: covers and introduction to Linux OS, Python and R analysing NGS data and SNP calling
+\end{cvitems}}
+    \cventry{Programme Developer}{OCR}{Oxford}{2016-present}{\begin{cvitems}
+\item Maths for Biology: Online workshops for secondary school teachers
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{presentations}{%
+\section{Presentations}\label{presentations}}
+
+\hypertarget{education-1}{%
+\subsection{Education}\label{education-1}}
+
+\begin{cventries}
+    \cventry{Speaker}{AMSCUE}{Online}{2021}{\begin{cvitems}
+\item ``Online Molecular Biology Labs''
+\end{cvitems}}
+    \cventry{Speaker}{OCR Science Forum}{Online}{2021}{\begin{cvitems}
+\item The impact of COVID-19, present and future
+\end{cvitems}}
+    \cventry{Speaker}{HUBS Bio-Summit}{Online}{2020}{\begin{cvitems}
+\item ``Using Electronic Lab Notebooks to improve reflective practises in learning''
+\end{cvitems}}
+    \cventry{Speaker}{Dry Labs Real Science}{Online}{2020}{\begin{cvitems}
+\item ``Molecular Biology tools for Online teaching''
+\end{cvitems}}
+    \cventry{Invited Speaker}{Higher Education Academy Talks}{Online}{2020}{\begin{cvitems}
+\item ``Synchronous on-line teaching in the biomedical sciences - Discovering how coronavirus PCR testing works''
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{research}{%
+\subsection{Research}\label{research}}
+
+\begin{cventries}
+    \cventry{Plenary}{UEA CEEC Rebellion}{Online}{2021}{\begin{cvitems}
+\item ``Genetic Pest Management: knocking out pest species with applied genetics''
+\end{cvitems}}
+    \cventry{Invited Speaker}{Entomological Society of America}{Vancouver}{2018}{\begin{cvitems}
+\item ``Localised gene drives for insect population control''
+\end{cvitems}}
+    \cventry{Speaker}{Society of Molecular Biology \& Evolution}{Vienna}{2015}{\begin{cvitems}
+\item ``The microbiome of the mediterranean fruit fly''
+\end{cvitems}}
+    \cventry{Invited Speaker}{Department of Genetics}{Cambridge}{2014}{\begin{cvitems}
+\item ``An introduction to genetic pest management''
+\end{cvitems}}
+    \cventry{Speaker}{Evolution}{Ottawa}{2012}{\begin{cvitems}
+\item ``What makes a successful male? Strategies for improved insect pest management''
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{grants}{%
+\section{Grants}\label{grants}}
+
+\begin{cventries}
+    \cventry{Gifts that keep on giving: maternal effects and insect pest control}{BBSRC}{University of East Anglia}{2020}{\begin{cvitems}
+\item PhD studentship
+\item Co-supervisor
+\item Funding amount 100,000 GBP
+\end{cvitems}}
+    \cventry{CRISPR Cas9 based sex-conversion gene drives for pest insect management}{BBSRC}{University of East Anglia}{2019}{\begin{cvitems}
+\item PhD studentship
+\item Co-supervisor
+\item Funding amount 100,000 GBP
+\end{cvitems}}
+    \cventry{Entomology Program Enhancement}{Entomological Society of America}{Pirbright Institute}{2018}{\begin{cvitems}
+\item Travel
+\item Funding amount 1000 GBP
+\end{cvitems}}
+    \cventry{Introduction to bioinformatics resources for vector genomics studies}{Infravec}{Pirbright Institute}{2018}{\begin{cvitems}
+\item Training
+\item Funding amount 460 GBP
+\end{cvitems}}
+    \cventry{Colonization, Domestication and Population control in pest insects}{BBSRC}{University of East Anglia}{2012}{\begin{cvitems}
+\item Research grant
+\item Researcher Co-I
+\item Funding amount 376,000 GBP
+\end{cvitems}}
+\end{cventries}
+
+\newpage
+
+\hypertarget{publications}{%
+\section{Publications}\label{publications}}
+
+\textbf{Google Scholar metrics: h-index: 10}
+
+\hypertarget{refereed-journal-papers}{%
+\subsection{Refereed Journal Papers}\label{refereed-journal-papers}}
+
+\hypertarget{refs_journals}{}
+\leavevmode\hypertarget{ref-19}{}%
+Harvey-Samuel, T., Xu, X., Lovett, E., Dafa'alla, T., Walker, A.,
+Norman, V., Carter, R., Teal, J., Akilan, L., \textbf{Leftwich,} P., \&
+Alphey, L. (2021). Engineered expression of the invertebrate-specific
+scorpion toxin {AaHIT} reduces adult longevity and female fecundity in
+the diamondback moth \emph{{Plutella} xylostella}. \emph{Pest Management
+Science}, \emph{77}(7), 3154--3164.
+
+\leavevmode\hypertarget{ref-13}{}%
+\textbf{Leftwich,} P., Spurgin, L., Harvey-Samuel, T., Thomas, C.,
+Paladino, L., Edgington, M., \& Alphey, L. (2021). Genetic pest
+management and the background genetics of release strains.
+\emph{Philosophical Transactions of the Royal Society B},
+\emph{376}(1818).
+
+\leavevmode\hypertarget{ref-11}{}%
+Anderson, M., Purcell, J., Verkuijl, S., Norman, V., \textbf{Leftwich,}
+P., Harvey-Samuel, T., \& Alphey, L. (2020). Expanding the CRISPR
+toolbox in {Culicine} mosquitoes: In vitro validation of pol III
+promoters. \emph{ACS Synthetic Biology}, \emph{9}(3), 678--681.
+
+\leavevmode\hypertarget{ref-14}{}%
+\textbf{Leftwich,} P., Edgington, M., \& Chapman, T. (2020).
+Transmission efficiency drives host--microbe associations.
+\emph{Proceedings of the Royal Society B}, \emph{287}(1934).
+
+\leavevmode\hypertarget{ref-16}{}%
+Tng, P., Paladino, L., Verkuijl, S., Purcell, J., Merits, A.,
+\textbf{Leftwich,} P., Fragkoudis, R., Noad, R., \& Alphey, L. (2020).
+Cas13b-dependent and {Cas}13b-independent {RNA} knockdown of viral
+sequences in mosquito cells following guide {RNA} expression.
+\emph{Communications Biology}, \emph{3}(1), 1--9.
+
+\leavevmode\hypertarget{ref-15}{}%
+\textbf{Leftwich,} P., Nash, W., Friend, L., \& Chapman, T. (2019).
+Contribution of maternal effects to dietary selection in {Mediterranean}
+fruit flies. \emph{Evolution}, \emph{73}(2), 278--292.
+
+\leavevmode\hypertarget{ref-6}{}%
+Redford, K., Brooks, T., Macfarlane, N., Adams, J., Alphey, L., Bennet,
+E., Delborne, J., Eggermont, H., Esvelt, K., Kingirl, A., Kokotovich,
+A., Kolodziejczyk, B., Kuiken, T., Mead, A., Oliva, M., Perello, E.,
+Slobodian, L., Thizy, D., Tompkins, D., Winter, G., Campbell, K.,
+Elsensohn, J., Holmes, N., Farmer, C., Keitt, B., \textbf{Leftwich,} P.,
+Maloney, T., Masiga, D., Newhouse, A., Novak, B., \ldots{} Oppen, M.
+(2019). \emph{Genetic frontiers for conservation: An assessment of
+synthetic biology and biodiversity conservation}.
+
+\leavevmode\hypertarget{ref-17}{}%
+\textbf{Leftwich,} P., \& Chapman, T. (2018). Testing for assortative
+mating by diet in \emph{{Drosophila} melanogaster}. \emph{Bio-Protocol},
+\emph{8}(20).
+
+\leavevmode\hypertarget{ref-3}{}%
+\textbf{Leftwich,} P., Clarke, N., Hutchings, M., \& Chapman, T. (2018).
+Gut microbiomes and reproductive isolation in \emph{drosophila} (vol
+114, pg 12767, 2017). \emph{Proceedings of the National Academy of
+Sciences}, \emph{115}(10).
+
+\leavevmode\hypertarget{ref-10}{}%
+\textbf{Leftwich,} P., Clarke, N., Hutchings, M., \& Chapman, T. (2018).
+Reply to obadia et al.: Effect of methyl paraben on host--microbiota
+interactions in \emph{{Drosophila} melanogaster}. \emph{Proceedings of
+the National Academy of Sciences}, \emph{201805499}.
+
+\leavevmode\hypertarget{ref-5}{}%
+\textbf{Leftwich,} P., Edgington, M., Harvey-Samuel, T., Paladino, L.,
+Norman, V., \& Alphey, L. (2018). Recent advances in threshold-dependent
+gene drives for mosquitoes. \emph{Biochemical Society Transactions},
+\emph{46}(5), 1203--1212.
+
+\leavevmode\hypertarget{ref-12}{}%
+\textbf{Leftwich,} P., Hutchings, M., \& Chapman, T. (2018). Diet, gut
+microbes and host mate choice: Understanding the significance of
+microbiome effects on host mate choice requires a case by case
+evaluation. \emph{Bioessays}, \emph{40}(12).
+
+\leavevmode\hypertarget{ref-8}{}%
+\textbf{Leftwich,} PT., Clarke, NV. E., Hutchings, MI., \& Chapman, T.
+(2018). Reply to rosenberg et al.: Diet, gut bacteria, and assortative
+mating in \emph{{Drosophila} melanogaster}. \emph{Proceedings of the
+National Academy of Sciences, Https://Doi.org/}, \emph{10}.
+
+\leavevmode\hypertarget{ref-9}{}%
+\textbf{Leftwich,} P., Nash, W., Friend, L., \& Chapman, T. (2017).
+Adaptation to divergent larval diets in the medfly, \emph{{Ceratitis}
+capitata}. \emph{Evolution}, \emph{71}(2), 289--303.
+
+\leavevmode\hypertarget{ref-7}{}%
+Longdon, B., Day, J., Schulz, N., \textbf{Leftwich,} P., Jong, Ma.,
+Breuker, C., Gibbs, M., Obbard, D., Wilfert, L., Smith, S., McGonigle,
+J., Houslay, T., Wright, L., Livraghi, L., Evans, L., Friend, L.,
+Chapman, T., Vontas, J., Kambouraki, N., \& Jiggins, F. (2017).
+Vertically transmitted rhabdoviruses are found across three insect
+families and have dynamic interactions with their hosts.
+\emph{Proceedings of the Royal Society B: Biological Sciences},
+\emph{284}(1847).
+
+\leavevmode\hypertarget{ref-1}{}%
+\textbf{Leftwich,} P., Bolton, M., \& Chapman, T. (2016). Evolutionary
+biology and genetic techniques for insect control. \emph{Evolutionary
+Applications}, \emph{9}(1), 212--230.
+
+\leavevmode\hypertarget{ref-2}{}%
+\textbf{Leftwich,} P., Koukidou, M., Rempoulakis, P., Gong, H.-F.,
+Zacharopoulou, A., Fu, G., Chapman, T., Economopoulos, A., Vontas, J.,
+\& Alphey, L. (2014). Genetic elimination of field-cage populations of
+{Mediterranean} fruit flies. \emph{Proceedings of the Royal Society B:
+Biological Sciences}, \emph{281}(1792).
+
+\leavevmode\hypertarget{ref-18}{}%
+Alphey, L., Ant, T., Koukidou, M., \textbf{Leftwich,} P., Rempoulakis,
+P., Vontas, J., Economopoulos, A., \& Chapman, T. (2012). Genetic
+improvements to sterile-male control of tephritid fruit flies.
+\emph{Tephritid Workers of Europe and Middle East (TEAM),
+Https://Nucleus.iaea.org~\ldots, 201}, \emph{2}.
+
+\leavevmode\hypertarget{ref-4}{}%
+\textbf{Leftwich,} P., Edward, D., Alphey, L., Gage, M., \& Chapman, T.
+(2012). Variation in adult sex ratio alters the association between
+courtship, mating frequency and paternity in the lek-forming fruitfly
+\emph{{Ceratitis} capitata}. \emph{Journal of Evolutionary Biology},
+\emph{25}(9), 1732--1740.
+
+\hypertarget{working-papers-under-revision-or-review}{%
+\subsection{Working Papers under Revision or
+Review}\label{working-papers-under-revision-or-review}}
+
+\hypertarget{refs_working_paper}{}
+\leavevmode\hypertarget{ref-2}{}%
+Darrington, M., \textbf{Leftwich,} P., Holmes, N., Friend, L., Clarke,
+N., Worsley, S., Margaritopolous, J., Hogenhout, S., Hutchings, M., \&
+Chapman, T. (2021). Characterisation of the symbionts in the
+{Mediterranean} fruitfly gut. \emph{bioRxiv}.
+
+\leavevmode\hypertarget{ref-1}{}%
+Tully, B., Buongiorno, J., Cohen, A., Cram, J., Garber, A., Hu, S.,
+Krinos, A., \textbf{Leftwich,} P., Marshall, A., Sieradzki, E., Speth,
+D., Suter, E., Trivedi, C., Valentin-Alvarado, L., Weissman, J., Lee,
+M., Alexander, H., Collins, R., Pachiadaki, M., Rhodes, A., \& Decatur,
+W. (2021). The {Bioinformatics} {Virtual} {Coordination} {Network}: An
+open-source and interactive learning environment. \emph{Frontiers in
+Education - In Review}.
+
+\hypertarget{books}{%
+\subsection{Books}\label{books}}
+
+\hypertarget{refs_proceedings}{}
+\leavevmode\hypertarget{ref-1}{}%
+Penny, J., \& \textbf{Leftwich,} P. (2018). \emph{Maths skills for
+{A-level} biology} {[}Book{]}. OUP (Oxford).
+
+\hypertarget{notes}{%
+\section{Notes}\label{notes}}
+
+\begin{itemize}
+\tightlist
+\item
+  This CV is a reproducible project; all the source code behind this CV
+  is available on \href{https://github.com/Philip-Leftwich/PL_CV}{this
+  GitHub repo}.
+\end{itemize}
+
+\includegraphics[width=0.25\textwidth,height=0.1\textheight]{data/PL_sig.png}/
+
+\end{document}
