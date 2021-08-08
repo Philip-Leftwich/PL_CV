@@ -1,4 +1,32 @@
-# Notes
+# Data Skills
+
+\begin{cvskills}
+  \cvskill
+    {Programming}
+    {R (advanced); Python (Intermediate)}
+    
+  \cvskill
+    {Reproducible Reports}
+    {Markdown/RMarkdown; R Shiny Apps, LaTex, Pandoc)}
+   
+  \cvskill
+    {DevOps}
+    {Git, AWS}  
+    
+  \cvskill
+    {Front-End}
+    {HTML/CSS, WordPress} 
+    
+  \cvskill
+    {Back-end}
+    {Unix/Linux Shell}
+    
+  \cvskill
+    {Quantitative}
+    {Linear Mixed Modelling; Supervised/Unsupervised Machine Learning; Bayesian; \newline High-throughput data analysis, Dimensionality Reduction}
+    
+\end{cvskills}
+
 
 * This CV is a reproducible project; all the source code behind this CV is available on [this GitHub repo](https://github.com/Philip-Leftwich/PL_CV){target="_blank"}.
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.7.30)  2 AUG 2021 16:40
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.7.30)  8 AUG 2021 11:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1137,6 +1137,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4]
+Overfull \hbox (60.4279pt too wide) in alignment at lines 478--503
+[] [] 
+ []
+
 File: data/PL_sig.png Graphic file (type bmp)
 <data/PL_sig.png>
 
@@ -1153,7 +1157,7 @@ Package rerunfilecheck Info: File `Philip_Leftwich_CV.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  31824 strings out of 478475
- 637946 string characters out of 5857611
+ 637952 string characters out of 5857611
  1125593 words of memory out of 5000000
  51596 multiletter control sequences out of 15000+600000
  407754 words of font info for 113 fonts, out of 8000000 for 9000
