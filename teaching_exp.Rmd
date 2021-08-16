@@ -15,6 +15,6 @@
     
   \cvskill
     {Outreach}
-    {The Brilliant Club, Villier's Park Educational Trust, Royal Society Summer Science} 
+    {Bioinformatics Virtual Coordination Network (https://biovcnet.github.io/); \newline The Brilliant Club, Villier's Park Educational Trust, Royal Society Summer Science} 
     
 \end{cvskills}

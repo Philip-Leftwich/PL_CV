@@ -12,7 +12,7 @@ email: "p.leftwich@uea.ac.uk"
 twitter: philipleftwich
 github: Philip-Leftwich
 linkedin: philip-leftwich-117052155
-aboutme: I am a PhD research scientist and lecturer, with experience in genetics, data science and microbiome community analysis.
+
   
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 csl: "csl/apa6-cv.csl"

@@ -1,13 +1,13 @@
-# Data Skills
+# Skills
 
 \begin{cvskills}
   \cvskill
     {Programming}
-    {R (advanced); Python (Intermediate)}
+    {R (advanced); Python (Intermediate); Julia}
     
   \cvskill
     {Reproducible Reports}
-    {Markdown/RMarkdown; R Shiny Apps, LaTex, Pandoc)}
+    {Markdown/RMarkdown; R Shiny Apps, LaTex, Binder, Pandoc}
    
   \cvskill
     {DevOps}
@@ -23,7 +23,11 @@
     
   \cvskill
     {Quantitative}
-    {Linear Mixed Modelling; Supervised/Unsupervised Machine Learning; Bayesian; \newline High-throughput data analysis, Dimensionality Reduction}
+    {Linear Mixed Modelling; Supervised/Unsupervised Machine Learning; Bayesian; \newline High-throughput data analysis, Dimensionality Reduction; Amplicon analysis; SNP analysis}
+    
+  \cvskill
+    {Lab skills}
+    {Insect rearing; Behavioural Analysis; Transgenics; CRISPR/Cas9; Molecular cloning; \newline Cell Culture; Microbiology}
     
 \end{cvskills}
 
