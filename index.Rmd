@@ -3,9 +3,7 @@ graphics: yes
 name: Philip T.
 surname: Leftwich
 headcolor: 414141
-#qualifications: 
-# position: "Ph.D. Candidate (ABD); RStudio Trusted Data Science Instructor"
-# address: "Learning, Design, and Technology, 301 Keller Building, University Park, PA 16802, USA"
+
 phone: "+44 7871 041 012"
 www: philip-leftwich.github.io
 email: "p.leftwich@uea.ac.uk"

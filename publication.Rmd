@@ -6,16 +6,23 @@
 `%ni%` = Negate(`%in%`)
 profile <- scholar::get_profile("5-qU7lkAAAAJ&h")
 pub_num <- scholar::get_publications("5-qU7lkAAAAJ&h") %>%
-    distinct(title, .keep_all = TRUE) %>% filter(journal %ni% c("University of East Anglia", "OUP (Oxford)")) %>% nrow()
+    distinct(title, .keep_all = TRUE) %>% filter(journal %ni% c("University of East Anglia", "OUP (Oxford)", "Oxford University Press-Children", "bioRxiv")) %>% nrow()
 
 ```
 
-**Google Scholar metrics: h-index: `r profile$h_index`**
+**Google Scholar metrics:**
+
+\begingroup
+\setlength{\parindent}{0.2in}
+**h-index: `r profile$h_index`**
+
+**publications: `r pub_num`**
+\endgroup
 
 <!-- ## Selected Publications
 
 \begingroup
-\setlength{\parindent}{-0.5in}
+\setlength{\parindent}{0.5in}
 \setlength{\leftskip}{0.5in}
 
 ::: {#refs_selected}
@@ -24,20 +31,30 @@ pub_num <- scholar::get_publications("5-qU7lkAAAAJ&h") %>%
 
 ## Refereed Journal Papers
 
+\begingroup
+\setlength{\parindent}{0.2in}
 
 ::: {#refs_journals}
 :::
 
-
+\endgroup
 
 ## Working Papers under Revision or Review
+
+\begingroup
+\setlength{\parindent}{0.2in}
 
 ::: {#refs_working_paper}
 :::
 
-
+\endgroup
 
 ## Books
 
+\begingroup
+\setlength{\parindent}{0.2in}
+
 ::: {#refs_proceedings}
 :::
+
+\endgroup
