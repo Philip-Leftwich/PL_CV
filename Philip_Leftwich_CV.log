@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.3.21)  28 MAR 2022 11:03
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.3.21)  29 MAR 2022 09:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1094,9 +1094,9 @@ Overfull \hbox (81.9579pt too wide) in alignment at lines 200--214
  []
 
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 243.
+(Font)              scaled to size 12.0pt on input line 241.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 243.
+(Font)              scaled to size 12.0pt on input line 241.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1116,9 +1116,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3]
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/b/n' will be
-(Font)              scaled to size 10.95pt on input line 321.
+(Font)              scaled to size 10.95pt on input line 319.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 340.
+(Font)              scaled to size 10.95pt on input line 339.
 
 Overfull \hbox (5.68747pt too wide) in paragraph at lines 428--433
 \TU/SourceSansPro(0)/m/n/10.95 and assortative mating in \TU/SourceSansPro(0)/m
