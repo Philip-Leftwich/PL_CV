@@ -2,6 +2,6 @@
 
 ```{r service}
 ezpickr::pick("data/service.xlsx") %>%
-  tidyr::fill(-why) %>%
+#  tidyr::fill(-why) %>%
   vitae::detailed_entries(what, when, with, where, why)
 ```
