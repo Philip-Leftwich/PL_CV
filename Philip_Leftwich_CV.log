@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.3.21)  26 APR 2022 14:56
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.3.21)  4 JAN 2023 10:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1074,7 +1074,7 @@ t line 143.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
 (Font)              scaled to size 8.0pt on input line 143.
 
-Overfull \hbox (41.24791pt too wide) in alignment at lines 167--184
+Overfull \hbox (41.24791pt too wide) in alignment at lines 168--185
 [] [] 
  []
 
@@ -1089,14 +1089,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [1
 
 ]
-Overfull \hbox (81.9579pt too wide) in alignment at lines 200--219
+Overfull \hbox (81.9579pt too wide) in alignment at lines 201--220
 [] [] 
  []
 
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 246.
+(Font)              scaled to size 12.0pt on input line 247.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 246.
+(Font)              scaled to size 12.0pt on input line 247.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1116,17 +1116,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3]
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/b/n' will be
-(Font)              scaled to size 10.95pt on input line 327.
+(Font)              scaled to size 10.95pt on input line 328.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 347.
-
-Overfull \hbox (5.68747pt too wide) in paragraph at lines 442--447
-\TU/SourceSansPro(0)/m/n/10.95 and assortative mating in \TU/SourceSansPro(0)/m
-/it/10.95 Drosophila melanogaster\TU/SourceSansPro(0)/m/n/10.95 . \TU/SourceSan
-sPro(0)/m/it/10.95 Proceedings of the National Academy of Sciences, Https://Doi
-.org/\TU/SourceSansPro(0)/m/n/10.95 ,
- []
-
+(Font)              scaled to size 10.95pt on input line 348.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1136,7 +1128,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4]
-Overfull \hbox (60.4279pt too wide) in alignment at lines 522--551
+Overfull \hbox (5.68747pt too wide) in paragraph at lines 449--454
+\TU/SourceSansPro(0)/m/n/10.95 and assortative mating in \TU/SourceSansPro(0)/m
+/it/10.95 Drosophila melanogaster\TU/SourceSansPro(0)/m/n/10.95 . \TU/SourceSan
+sPro(0)/m/it/10.95 Proceedings of the National Academy of Sciences, Https://Doi
+.org/\TU/SourceSansPro(0)/m/n/10.95 ,
+ []
+
+
+Overfull \hbox (60.4279pt too wide) in alignment at lines 531--560
 [] [] 
  []
 
@@ -1161,6 +1161,6 @@ Here is how much of TeX's memory you used:
  52733 multiletter control sequences out of 15000+600000
  473567 words of font info for 112 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 114i,11n,118p,556b,634s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 114i,12n,118p,556b,634s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Philip_Leftwich_CV.pdf (5 pages).

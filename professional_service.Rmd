@@ -15,10 +15,10 @@
    
   \cvskill
     {Professional memberships}
-    {Genetics Society; Royal Statistical Society; Vectorbite; Nationwide Network of BioScience Educators; Advance HE}  
+    {Genetics Society; Royal Statistical Society; Vectorbite; Nationwide Network of BioScience Educators; \newline Advance HE; SORTEE}  
   
   \cvskill
     {Panel memberships}
-    {Open University Programme Validation, The American College of Thessaloniki}  
+    {Open University Programme Validation; SORTEE Education and Outreach Committee}  
     
 \end{cvskills}
