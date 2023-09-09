@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.3.21)  4 JAN 2023 10:30
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2022.3.21)  9 SEP 2023 17:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1128,7 +1128,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [4]
-Overfull \hbox (5.68747pt too wide) in paragraph at lines 449--454
+Overfull \hbox (5.68747pt too wide) in paragraph at lines 466--471
 \TU/SourceSansPro(0)/m/n/10.95 and assortative mating in \TU/SourceSansPro(0)/m
 /it/10.95 Drosophila melanogaster\TU/SourceSansPro(0)/m/n/10.95 . \TU/SourceSan
 sPro(0)/m/it/10.95 Proceedings of the National Academy of Sciences, Https://Doi
@@ -1136,7 +1136,15 @@ sPro(0)/m/it/10.95 Proceedings of the National Academy of Sciences, Https://Doi
  []
 
 
-Overfull \hbox (60.4279pt too wide) in alignment at lines 531--560
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[5]
+Overfull \hbox (60.4279pt too wide) in alignment at lines 566--595
 [] [] 
  []
 
@@ -1150,7 +1158,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[5] (./Philip_Leftwich_CV.aux)
+[6] (./Philip_Leftwich_CV.aux)
 Package rerunfilecheck Info: File `Philip_Leftwich_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
@@ -1161,6 +1169,6 @@ Here is how much of TeX's memory you used:
  52733 multiletter control sequences out of 15000+600000
  473567 words of font info for 112 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 114i,12n,118p,556b,634s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 114i,11n,118p,556b,634s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Philip_Leftwich_CV.pdf (5 pages).
+Output written on Philip_Leftwich_CV.pdf (6 pages).

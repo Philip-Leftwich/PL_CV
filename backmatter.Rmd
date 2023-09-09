@@ -1,3 +1,5 @@
+\newpage
+
 # Skills
 
 \begin{cvskills}
